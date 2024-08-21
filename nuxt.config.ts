@@ -9,6 +9,6 @@ export default defineNuxtConfig({
     enabled: true,
   },
   alias,
-  vite, // without worker config, auto imports are not working
+  vite, // without worker config, auto imports are not working (even the one from ./composables)
   imports,
 });

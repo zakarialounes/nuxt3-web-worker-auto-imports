@@ -11,10 +11,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
-  "devDependencies": {
-    "unplugin-auto-import": "^0.18.2"
-  },
   "dependencies": {
+    "unplugin-auto-import": "^0.18.2",
     "nuxt": "^3.12.4"
   }
 }

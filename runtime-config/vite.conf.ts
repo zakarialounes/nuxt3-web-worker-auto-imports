@@ -8,7 +8,7 @@ export const viteConf = {
         viteOptimizeDeps: true,
         include: [/\.[tj]sx?$/],
         imports: ['vue'],
-        dirs: imports.dirs, // allow to fix own auto imports
+        dirs: imports.dirs, // allow to fix own auto imports (not nuxt stuff)
       }),
     ],
   },
