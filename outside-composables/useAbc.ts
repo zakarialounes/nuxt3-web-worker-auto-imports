@@ -1,3 +1,5 @@
 export const useAbc = () => {
-  return 'abcdefghijklmnopqrstuvwxyz';
+  const nuxtApp = tryUseNuxtApp(); // not available in web workers
+
+  return nuxtApp ? 'abcdefghijklmnopqrstuvwxyz' : 'abcdefghijklmnopqrstuvwxyz';
 };
